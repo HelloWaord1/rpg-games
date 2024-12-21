@@ -1,0 +1,19 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step required for Node.js application'"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.24.1",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
